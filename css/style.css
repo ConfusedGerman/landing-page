@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -11,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 100px;
-    flex: 1;  /* muss geändert werden? */
 }
 
 .header-logo {
@@ -82,7 +82,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 auto;
 }
 .parent-title-one {
     margin: 16px 0px;
@@ -117,12 +116,12 @@ a {
 
 .content-two {
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
     padding: 0px 50px;
+    flex: 1;
 }
 
 .quote {
@@ -134,4 +133,20 @@ a {
 .source {
     align-self: flex-end;
     font-weight: 800;
+}
+
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.container {
+    background-color:#3882F6;
+    border-radius: 16px;
+    width: 600px;
+    height: 150px;
+    margin: auto;
 }
