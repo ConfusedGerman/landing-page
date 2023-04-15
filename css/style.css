@@ -5,3 +5,36 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+    flex: 1;  /* muss geändert werden */
+}
+
+.header-logo {
+    color: white;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    display: inline;
+    flex-shrink: 0;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
