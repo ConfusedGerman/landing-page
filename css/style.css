@@ -64,7 +64,7 @@ a {
     background-color: #3882F6;
     color: white;
     border-radius: 12px;
-    border: 1; /* is that good style? */
+    border: 0; /* is that good style? */
 
 }
 
