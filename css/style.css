@@ -73,3 +73,41 @@ a {
     background-color: white;
     flex: auto;
 }
+
+
+
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.parent-title-one {
+    margin: 16px 0px;
+}
+
+.child-title-one {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.child-square {
+    width: 140px;
+    height: 140px;
+    border: 10px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+}
+
+.context-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.square-text {
+    width: 160px;
+    text-align: center;
+}
