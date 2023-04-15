@@ -71,7 +71,7 @@ a {
 
 .placeholder {
     padding: 100px 250px;
-    background-color: white;
+    background-color: grey;
     flex: auto;
 }
 
@@ -144,9 +144,32 @@ a {
 }
 
 .container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
     background-color:#3882F6;
     border-radius: 16px;
     width: 600px;
-    height: 150px;
+    max-height: 150px;
+    min-height: 120px;
     margin: auto;
+}
+
+#text-one {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+#text-two {
+    color: #E5E7EB;
+}
+
+#two {
+    border-radius: 16px;
+    border-color: white;
+    border-style: solid;
+    background-color: #3882F6;
+    color: white;
 }
