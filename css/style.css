@@ -69,12 +69,13 @@ a {
 
 }
 
-.placeholder {
-    padding: 100px 250px;
-    background-color: grey;
-    flex: auto;
-}
 
+#image-one {
+    flex: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
 
 
 
